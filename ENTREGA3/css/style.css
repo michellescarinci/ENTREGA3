@@ -1,0 +1,121 @@
+* {
+  font-style: italic;
+}
+
+.bg-pink {
+  background-color: #fdbda2;
+}
+
+.img-fluid {
+  animation-name: fadeIn;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+.promo {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.fotobarra {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.espaciocontacto {
+  margin-bottom: 60px;
+}
+
+footer {
+  background-color: black;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+} */
+
+/* .container {
+  width: 100%;
+} */
+
+/* nav ul li a {
+  color: black;
+} */
+/* .nav__list {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+} */
+
+/* .nav__link {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+} */
+
+/* header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+} */
+
+/* #intro-section {
+  background-color: white;
+} */
+/* 
+.display-2 {
+  text-transform: capitalize;
+  font-size: 4.5rem;
+  font-weight: 400;
+  text-align: center;
+} */
+
+/* .display-2-intro {
+  font-weight: 700;
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.display-2-description {
+  font-size: 2.5rem;
+  text-align: center;
+} */
+
+/* .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 15px;
+} */
+
+/* .boot {
+  background-color: black;
+} */
